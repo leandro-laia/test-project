@@ -9,7 +9,7 @@
 
     let favoriteDroid: string
     favoriteDroid = "BB-8"
-    console.log("My favorite droid is " + favoriteDroid)
+    console.log(`My favorite droid is ${favoriteDroid}`)
 
     let isNoughToBeatMF = function (parsecs : number):boolean {
         return parsecs < 12
