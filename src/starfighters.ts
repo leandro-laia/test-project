@@ -15,6 +15,6 @@ export class MillenniumFalcon extends Spacecraft implements ContainerShip {
         if (Math.random() >= 0.5) 
         super.jumpIntoHyperspace()
         else
-            console.log("Failed jump into hyperspace")
+            console.log("Failed jump into hyperspace! Holy crap!")
     }
 }
